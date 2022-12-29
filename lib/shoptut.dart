@@ -1,3 +1,5 @@
+// remove main function from this file
+
 import 'package:flutter/material.dart';
 
 class Product {
@@ -117,6 +119,7 @@ void main() {
     home: ShoppingList(
       products: [
         Product(name: 'Eggs'),
+        Product(name: 'Milk'),
         Product(name: 'Flour'),
         Product(name: 'Chocolate chips'),
       ],
