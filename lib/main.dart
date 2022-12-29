@@ -14,7 +14,7 @@ class MyApp2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text('Hello World'),
+      child: Text(maxLines: 10, 'Hello World'),
     );
   }
 }
